@@ -8,8 +8,8 @@ body {
   padding: 0;
   text-align: center;
   font-family: 'Roboto', sans-serif;
-  color: #222;
-  background: #f7f5f0;
+  color: #263238  ;
+  background: #F6F1EB;
 }
 /* Link Styles */
 
@@ -18,14 +18,14 @@ a {
   color: #999;
 }
 a:hover {
-  color: #6633ff;
+  color: green;
 }
 
 /* Section Styles */
 
 .main-nav {
   width: 100%;
-  background: black;
+  background: #263238;
   min-height: 30px;
   padding: 10px;
   position: fixed;
@@ -57,10 +57,10 @@ a:hover {
 
 header {
   text-align: center;
-  background: url('images/finland.jpg') no-repeat center center ;
+  background: url('images/header-bg.jpg') no-repeat center;
   background-size: cover;
   overflow: hidden;
-  padding-top: 60px;
+  padding: 60px 0px;
 }
 header {
   line-height: 1.5;
@@ -70,36 +70,35 @@ header .profile-image {
   width: 150px;
   height: 150px;
   border-radius: 50%;
-  border: 3px solid white;
-  transition: all .5s;
+  padding-top: 9px;
+  background-color: #263238;
+  border: 1px solid lightgreen;
+  transition: all .8s;
 }
 header .profile-image:hover {
-  transform: scale(1.2) rotate(5deg);
+  transform: rotate(360deg);
 }
 .tag {
-  background-color: #efefef;
-  color: black;
+  color: beige;
   padding: 10px;
-  border-radius: 5px;
+  border: 1px solid lightgreen;
   display: table;
   margin: 10px auto;
+  background: #263238;
 } 
-.location {
-  background-color: #222;
-  color: yellow;
-}
+
 .card {
   margin: 30px;
   padding: 20px 40px 40px;
   max-width: 500px;
   text-align: left;
   background: #fff;
-  border-bottom: 4px solid #ccc;
+  border-bottom: 4px solid lightgrey;
   border-radius: 6px;
   transition: all .5s;
 }
 .card:hover {
-  border-color: #ff99ff;
+  border-color: lightgreen;
 }
 
 ul.skills {
@@ -110,14 +109,14 @@ ul.skills {
 .skills li {
   border-radius: 6px;
   display: inline-block;
-  background: #ff9904;
+  background: lightgreen;
   color: white;
   padding: 5px 10px;
   margin: 2px;
 }
 
 .skills li:nth-child(odd) {
-  background: #0399ff;
+  background: green;
 }
 
 footer {
@@ -180,7 +179,9 @@ a.social:hover {
   }
 
   header {
-    min-height: 470px;
+    height: 600px;
+    background-position: top;
+      padding-top: 100px;
   }
 
   .nav {
